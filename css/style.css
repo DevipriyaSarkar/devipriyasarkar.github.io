@@ -98,9 +98,36 @@ header, body {
 }
 
 ul.browser-default li {
-  list-style-type: initial;
+    list-style-type: initial;
 }
 
 .collapsible-body ul {
     font-size: medium;
+}
+
+#project-staggered-list li {
+    opacity: 0;
+}
+
+.skill-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #80cbc4;
+    border-radius: 2px;
+    margin: 5px auto;
+}
+
+.fill {
+    height: 100%;
+    width: 0;
+    background-color: #009688;
+    border-radius: 2px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.fill span {
+    color: white;
+    padding-left: 10px;
 }
