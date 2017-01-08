@@ -4,6 +4,7 @@ Github repository for my website at [devipriyasarkar.github.io](https://devipriy
 ## Credits
 * [Materialize](http://materializecss.com/)
 * [Typed.js](http://www.mattboldt.com/demos/typed-js/) by [Matt Boldt](http://www.mattboldt.com/)
+* [Font Awesome](http://fontawesome.io) by [Dave Gandy](https://twitter.com/davegandy)
 * [Material Icons](https://material.io/icons/)
 
 ## License
@@ -17,6 +18,10 @@ Github repository for my website at [devipriyasarkar.github.io](https://devipriy
                         Apache License Version 2.0
         applies to: 
         - Material Icons
+	-----------------------------------------------------------------------------
+	                    SIL Open Font License (OFL) 1.1
+        applies to: 
+        - Font Awesome
 	-----------------------------------------------------------------------------
 ```
 
