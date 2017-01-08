@@ -157,3 +157,20 @@ ul.browser-default li {
     font-weight: 100;
     font-size: large;
 }
+
+#connect-section i {
+    padding: 10px;
+}
+
+#google-fab {
+    background-color: #dd4b39
+}
+
+
+#github-gray {
+    background-color:#333
+}
+
+#linkedin-fab {
+    background-color: #0077B5
+}
