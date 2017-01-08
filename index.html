@@ -49,13 +49,12 @@
     <h2 class="valign center-align" style="padding: 50px">
         <span class="typed"></span><span class="typed-cursor"></span>
     </h2>
-    <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="images/background1.jpg" alt="Header Section Background Image"></div>
 </div>
 
 
 <div class="container">
-    <div class="section">
-        <!--   About Me Section   -->
+    <div class="section" id="about-me">
         <div class="row valign-wrapper">
             <img id="profile-image" class="col s12 m4 valign circle" src="images/photo.jpg" />
             <div class="col s12 m8 valign">
@@ -98,34 +97,151 @@
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="images/background2.jpg" alt="Education Section Background Image"></div>
 </div>
 
 <div class="container">
-    <div class="section">
+    <div class="section" id="education">
         <div class="row">
             <div class="col s12 center">
-                <div class="col s4 card small">
-                    <div class="card-image" style="max-height: none; height: inherit">
-                        <img class="circle responsive-img center" src="images/logo1.png" style="height: inherit">
-                        <span class="card-title black-text">Udacity</span>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/logo1.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4">Udacity</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col s4 card small">
-                    <div class="card-image" style="max-height: none; height: inherit">
-                        <img class="circle responsive-img center" src="images/logo3.jpg" style="height: inherit">
-                        <span class="card-title black-text">Visvesvaraya Institute of Technology</span>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/logo3.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4">Visvesvaraya Institute of Technology</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col s4 card small">
-                    <div class="card-image" style="max-height: none; height: inherit">
-                        <img class="circle responsive-img center" src="images/logo2.jpg" style="height: inherit">
-                        <span class="card-title black-text">Kendriya Vidyalaya Sangathan</span>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/logo2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4">Kendriya Vidyalaya Sangathan</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
+
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h3 class="header col s12 black-text">Projects</h3>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"><img src="images/background3.jpg" alt="Project Section Background Image"></div>
+</div>
+
+<div class="container">
+    <div class="section" id="project">
+        <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">work</i>Popular Movies</div>
+                <div class="collapsible-body">
+                    <ul class="browser-default">
+                        <li>An android app, optimized for tablets, to help users discover popular and highly rated movies on the web.</li>
+                        <li>It displays a scrolling grid of movie trailers, launches a details screen whenever a particular movie is selected, allows users to save favorites, play trailers, and read user reviews.</li>
+                        <li>This app utilizes core Android user interface components and fetches movie information using themoviedb.org web API.</li>
+                        <li>Technologies Used: Android: Java, XML.</li>
+                        <li><a class="card-action" href="https://github.com/DevipriyaSarkar/Popular-Movies">Project Link</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">work</i>Damsel in Distress</div>
+                <div class="collapsible-body">
+                    <ul class="browser-default">
+                        <li>An android app that focuses on women safety.</li>
+                        <li>It plays high frequency scream when the phone is shaken thrice strongly and simultaneously sends text alert to people nearby her current location who have the application installed with her location coordinates.</li>
+                        <li>Technologies Used: Android: Java, XML.</li>
+                        <li><a class="card-action" href="https://github.com/DevipriyaSarkar/Damsel-In-Distress">Project Link</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">work</i>Friend Match</div>
+                <div class="collapsible-body">
+                    <ul class="browser-default">
+                        <li>Friend Match is a platform that finds you friends and suggests you events based on your hobbies.</li>
+                        <li>The app lets you explore your skills which you earlier did not have company to pursue with.</li>
+                        <li>The back-end is flask server written in python and uses mySQL database and the front-end is an Android application.</li>
+                        <li>Technologies Used: Python - flask; Android - Java, XML; Database - mySQL. </li>
+                        <li><a class="card-action" href="https://devipriyasarkar.github.io/FriendMatch/">Project Link</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">work</i>Screen Cam</div>
+                <div class="collapsible-body">
+                    <ul class="browser-default">
+                        <li>A simple android app that captures video of the phone's screen (ie. screencast app) and records the external audio.</li>
+                        <li>Technologies Used: Android: Java, XML.</li>
+                        <li><a class="card-action" href="https://github.com/DevipriyaSarkar/ScreenCam">Project Link</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">work</i>Analyze Twitter Feed</div>
+                <div class="collapsible-body">
+                    <ul class="browser-default">
+                        <li>A cognitive application for social media customer care using IBM Bluemix.</li>
+                        <li>The application reads twitter mentions of a particular handle, uses the Natural Language Classifier Service to identify the type of tweet and based on the type of tweet, and automatically replies to that tweet with an appropriate response.</li>
+                        <li>Technologies Used: IBM Watson - NLC, NodeRed.</li>
+                        <li><a class="card-action" href="https://github.com/DevipriyaSarkar/AnalyzeTwitterFeed">Project Link</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">work</i>Tweet Sweet</div>
+                <div class="collapsible-body">
+                    <ul class="browser-default">
+                        <li>A chrome extension that lets you share text, image, link from any page to your Twitter profile and also shows you the sentiment of your tweet before posting.</li>
+                        <li>Technologies Used: Javascript, HTML, CSS.</li>
+                        <li><a class="card-action" href="https://github.com/DevipriyaSarkar/TweetSweet">Project Link</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">work</i>Sunshine</div>
+                <div class="collapsible-body">
+                    <ul class="browser-default">
+                        <li>A simple weather GUI app with python Tkinter that fetches weather data from openweathermap API.</li>
+                        <li>Technologies Used: Python.</li>
+                        <li><a class="card-action" href="https://github.com/DevipriyaSarkar/Sunshine">Project Link</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">work</i>Motivational Quotes</div>
+                <div class="collapsible-body">
+                    <ul class="browser-default">
+                        <li>A simple web app to display random motivational quote at every refresh.</li>
+                        <li>Technologies Used: HTML, Javascript, Node.js.</li>
+                        <li><a class="card-action" href="https://motivational-dp.herokuapp.com/">Web App Link</a></li>
+                        <li><a class="card-action" href="https://github.com/DevipriyaSarkar/MotivationalQuotes">Project Link</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
 

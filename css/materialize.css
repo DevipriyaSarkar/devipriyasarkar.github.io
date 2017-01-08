@@ -5445,8 +5445,9 @@ button.btn-floating {
 .collapsible-header {
   display: block;
   cursor: pointer;
-  min-height: 3rem;
-  line-height: 3rem;
+  min-height: 4rem;
+  line-height: 4rem;
+  font-size: large;
   padding: 0 1rem;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
@@ -5455,7 +5456,7 @@ button.btn-floating {
 .collapsible-header i {
   width: 2rem;
   font-size: 1.6rem;
-  line-height: 3rem;
+  line-height: 4rem;
   display: block;
   float: left;
   text-align: center;

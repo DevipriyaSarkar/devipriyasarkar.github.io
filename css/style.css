@@ -96,3 +96,11 @@ header, body {
     width: 300px;
     height: 300px;
 }
+
+ul.browser-default li {
+  list-style-type: initial;
+}
+
+.collapsible-body ul {
+    font-size: medium;
+}

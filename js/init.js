@@ -3,7 +3,7 @@
 
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
-
+        $('.collapsible').collapsible();
         $(".typed").typed({
             stringsElement: $('#typed-strings'),
             typeSpeed: 30,
