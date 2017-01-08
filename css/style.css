@@ -56,6 +56,10 @@ footer.page-footer {
     margin: 0;
 }
 
+body {
+    background: rgb(247,247,247)
+}
+
 header, body {
     padding-left: 230px;
 }
@@ -68,6 +72,10 @@ header, body {
 
 .side-nav {
     width: 230px;
+}
+
+#slide-out li div {
+    width: 100%;
 }
 
 .typed-cursor{
@@ -128,6 +136,24 @@ ul.browser-default li {
 }
 
 .fill span {
+    font-size: large;
     color: white;
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+#mobile-top-nav {
+    height: 64px;
+}
+
+#mobile-top-nav div {
+    width: 100%;
+}
+
+#type-section {
+    padding: 50px;
+}
+
+#about-me-para {
+    font-weight: 100;
+    font-size: large;
 }
