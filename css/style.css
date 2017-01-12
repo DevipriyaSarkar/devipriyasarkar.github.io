@@ -105,6 +105,25 @@ header, body {
     height: 300px;
 }
 
+/* tablets and desktops ----------- */
+@media only screen  and (min-width : 601px) {
+    #about-me-row {
+        display: flex;
+    }
+
+    #profile-image-holder {
+        align-items: stretch;
+    }
+
+    #profile-image-holder > div {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
 ul.browser-default li {
     list-style-type: initial;
 }
