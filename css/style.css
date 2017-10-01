@@ -31,7 +31,7 @@ header, body{padding-left:230px;}
 50%{opacity:0;}
 100%{opacity:1;}
 }
-#profile-image{width:300px;height:300px;}
+#profile-image{width:300px;max-height:300px;}
 @media only screen and (min-width:601px){#about-me-row{display:flex;}
 #profile-image-holder{align-items:stretch;}
 #profile-image-holder > div{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}
