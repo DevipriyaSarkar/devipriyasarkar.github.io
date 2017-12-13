@@ -52,3 +52,7 @@ body {
 #about-me-text {
     font-size: medium;
 }
+
+.social-icon {
+    margin-bottom: 10px;
+}
