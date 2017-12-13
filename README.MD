@@ -7,7 +7,7 @@ Github repository for my website at [devipriyasarkar.github.io](https://devipriy
                         The MIT License (MIT)
         applies to: 
         - Materialize, Copyright (c) 2014-2016 Materialize
-        - Typed.js, Copyright (c) 2016 Matt Boldt
+        - particles.js, Copyright (c) 2015 Vincent Garreau
 	-----------------------------------------------------------------------------
                         Apache License Version 2.0
         applies to: 
