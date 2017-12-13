@@ -38,74 +38,14 @@
     border: 5px solid black;
 }
 
-#google-fab{background-color:#dd4b39}
-#github-gray{background-color:#333}
-#linkedin-fab{background-color:#0077B5}
-#twitter-fab{background-color:#55ACEE}
+#google-fab{background-color: #DD4B39}
+#github-gray{background-color: #333}
+#linkedin-fab{background-color: #0077B5}
+#twitter-fab{background-color: #55ACEE}
+#facebook-fab{background-color: #3B5998}
 
 #particles-js {
     position: absolute;
     width: 100%;
     height: 100%;
-}
-
-.toolbar-fixed {
-    width: 100%;
-    padding: 0;
-    height: 56px;
-    position: fixed;
-    bottom: 0;
-    z-index: 10000;
-}
-
-.toolbar-fixed.active > a i {
-    opacity: 0;
-}
-
-.toolbar-fixed ul {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    top: 0;
-    bottom: 0;
-}
-
-
-.toolbar-fixed ul li {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    display: inline-block;
-    height: 100%;
-    transition: none;
-    position: relative;
-    top: -15px;
-}
-
-
-.toolbar-fixed ul li a{
-    display: block;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    box-shadow: none;
-    color: #fff;
-    line-height: 56px;
-    z-index: 1;
-}
-
-.toolbar-fixed ul li a i {
-    line-height: inherit;
-}
-
-.toolbar-fixed ul {
-    left: 0;
-    right: 0;
-    text-align: center;
-}
-
-.toolbar-fixed ul li {
-    margin-bottom: 15px;
 }
