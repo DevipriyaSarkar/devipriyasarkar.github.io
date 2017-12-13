@@ -1,6 +1,12 @@
 # Devipriya Sarkar
 Github repository for my website at [devipriyasarkar.github.io](https://devipriyasarkar.github.io/)
 
+## Credits
+* [Materialize](http://next.materializecss.com/)
+* [particles.js](http://vincentgarreau.com/particles.js/) by [Vincent Garreau](http://vincentgarreau.com/en)
+* [Font Awesome](http://fontawesome.io) by [Dave Gandy](https://twitter.com/davegandy)
+* [Material Icons](https://material.io/icons/)
+
 ## License
 ```
 	-----------------------------------------------------------------------------
