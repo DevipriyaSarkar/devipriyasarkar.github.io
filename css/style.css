@@ -55,10 +55,6 @@ body {
     z-index: -10;
 }
 
-#about-me-text {
-    font-size: medium;
-}
-
 .social-icon {
     margin-bottom: 10px;
 }
@@ -66,4 +62,24 @@ body {
 #top_wrapper {
     position: relative;
     overflow: visible;
+}
+
+#button-row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#button-row span {
+    display: table-cell;
+    text-align: center;
+}
+
+.card-title {
+    font-family: 'Acme', sans-serif;
+}
+
+#about-me-text {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: medium;
 }
