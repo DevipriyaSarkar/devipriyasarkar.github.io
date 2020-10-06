@@ -3,7 +3,7 @@ body {
 }
 
 .parallax-container {
-  min-height: 360px;
+  min-height: 250px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -35,11 +35,20 @@ body {
     border: 5px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
-    bottom: -25%;
+    bottom: -35%;
     left: 0;
     right: 0;
     margin: 0 auto;
     z-index: 20;
+}
+
+#profile-card {
+  border-radius: 7px;
+}
+
+#social-card {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 #google-fab{background-color: #DD4B39}
